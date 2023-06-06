@@ -1,0 +1,105 @@
+@font-face {
+    font-family: siteFonts;
+    src: url(../media/FUTURISTIC.otf);
+}
+$yelowishWhite: rgb(244, 238, 224);
+$darkBlue: rgb(57, 54, 70);
+$darkPurple: rgb(79, 69, 87);
+$darkPink: rgb(109, 93, 110);
+    ul {
+  display: inline-flex;
+  list-style: none;
+  padding: 5;
+  
+} 
+    h1 {display: inline-flex;
+} 
+    h3 {display: inline-flex;
+}
+    a {
+    text-decoration: none;
+    color: inherit;
+ }
+    li {
+    margin-right: 100px;
+}
+    .logo {
+    margin-right: 200px;
+}
+    .headerColors {
+    background-color: $darkBlue;
+    color: white;
+    font-family: siteFonts;
+}
+    .mainColors {
+    background-color: $darkPurple;
+    color: white;
+}
+    .textBox{
+        background-color: $darkPink;
+        height: 1000px;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding: 20px;
+    }
+    .marginFix{
+        margin: 0;
+        background-color: $darkPurple;
+    }
+    .footerStyle{
+        text-decoration: none;
+        color: black;
+        font-family: siteFonts;
+        height: 30%;
+    }
+    .footerBg{
+        background-color: $yelowishWhite;
+    }
+    .mainTextStyle{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 150%;
+    }
+    .videoWrapper {
+        margin-top: 100px;
+    }
+    .titleFont{
+        font-family: siteFonts;
+        color: white;
+        text-decoration: none;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        float: left;
+    }
+    .smallTextBox{
+        background-color: $yelowishWhite;
+        height: 300px;
+        width: 300px;
+        margin-left: 25%;
+        font-family: siteFonts;
+        color: black;
+    }
+    .red-button {
+        background-color: red;
+        color: white;
+    }
+    .bodyBoxColor {
+        background-color: $darkPink;
+    }
+    .pictureResize {
+
+         img {
+            transition: transform 0.3s ease-in-out;
+  }
+
+        &:hover {
+            img {
+                transform: scale(1.2);
+               
+    }
+  }
+}
